@@ -1,5 +1,8 @@
-SIGN_UP = 1
-SIGN_IN = 2
-MEMBER_MODIFY = 1
-MEMBER_DELETE = 1
-SYSTEM_OUT = 1
+SIGN_UP             = 1
+SIGN_IN             = 2
+MEMBER_MODIFY       = 3
+MEMBER_DELETE       = 4
+SYSTEM_OUT          = 99
+SIGN_OUT            = 5
+
+DEV_MOD = True
