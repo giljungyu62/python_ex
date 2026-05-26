@@ -1,17 +1,18 @@
-# '''
-# 1부터 입력받은 숫자 n까지 출력
-# '''
-# num = int(input('n :'))
+# s = 0
 
-# i = 1
-# while i <= num:
-#     print(i)
-#     i = i + 1
-'''
-yes를 입력하면 반복하기
-'''
-character = "yes"
-while character == "yes":
-    character = input("yes 입력시 반복 ")
+# for i in range(5):
+#     n = int(input('n:'))
+#     s = s + n
 
-print('종료')
+# print('합:',s)
+# print('평균:',s/5)
+
+# n = int(input('n: '))
+
+# for i in range(1, 10):
+#     print('{}*{} = {}'. format(n, i, n * i))
+
+li = ['a','d','e','b','c']
+
+for i in range(len(li)-1,-1,-1):
+    print(li[i])

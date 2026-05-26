@@ -80,3 +80,11 @@ human2 = Human(165, 49)
 
 human1.printMyInfo()
 human2.printMyInfo()
+
+human1 = human2
+human1.printMyInfo()   # 165, 49
+
+human1.height = 200
+human1.weight = 39
+
+human2.printMyInfo()  # 200, 39
